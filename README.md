@@ -6,7 +6,7 @@ Chainer で MNIST (手書き文字認識) データの次元圧縮を題材に�
 
 Chainer 1.6 以上 (Chainer 1.6 or 1.7) での動作確認済みです。
 
-Chainer 1.5 未満の場合は、以前のものを使用してください。
+Chainer 1.5 未満の場合は、以前のものを使用してください。  
 ( https://github.com/ISP-Kazuki-Nagasawa/chainer_sda_mnist_sample )
 
 ## 動作確認済み環境
