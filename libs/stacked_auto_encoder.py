@@ -298,7 +298,6 @@ class StackedAutoEncoderForwardAll(chainer.Chain) :
 
         h = x
         for num in six.moves.range(1, self.len_f_layers) :
-
             h = F.dropout(self.activation(self.__getitem__("l_f{0}".format(num))(h)), train = self.train)
         y = self.__getitem__("l_f{0}".format(self.len_f_layers))(h)
         return y
