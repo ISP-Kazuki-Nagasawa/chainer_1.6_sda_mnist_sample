@@ -58,8 +58,8 @@ GPU が入っているPCでの実行の場合、GPU ID を設定すると高速�
 
 
 ### その他
-- Linear Linkのコピー
-本プログラムでは、pretraining、fine tuning、結果出力の際、それぞれ別の Chain を利用しています。
+- Linear Linkのコピーについて  
+本プログラムでは、pretraining、fine tuning、結果出力の際、それぞれ別の Chain を利用しています。  
 Linear Linkはその度に移し替えているのですが、その際、Chainer の『1つのLinkを複数のChainで使い回すことができない』問題により、各処理前に Link をコピーして使用しています。
 Chainer が対応し次第、直したいところです。
     - https://github.com/pfnet/chainer/issues/715
